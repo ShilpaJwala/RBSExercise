@@ -43,3 +43,10 @@ To run all modules, navigate to `rbs` directory and run:
 
 Reports for each module are written into `/target` directories after a successful run.
 
+## Future Improvements
+* Improve test structure
+* Extend the framework to work on different browsers
+* Integrate these tests with the CI/CD framework such that these are executed as nightly/regression builds
+* Extend the framework to generate coverage & error reports
+* Improve chromdriver session handling
+
