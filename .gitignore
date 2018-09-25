@@ -40,3 +40,4 @@ rbs/.settings
 rbs/.settings/org.eclipse.core.resources.prefs
 rbs/.settings/org.eclipse.jdt.core.prefs
 rbs/.settings/org.eclipse.m2e.core.prefs
+rbs/target/
