@@ -13,6 +13,8 @@ import com.demo.*;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.*;
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 import java.util.logging.*;
 
 public class OrderItems_Steps {
@@ -29,10 +31,7 @@ public class OrderItems_Steps {
 		LOGGER.log(Level.INFO, "Setting Up Test");
 		password = Utils.getProp("password");
 			
-		String path = Utils.getProp("userDir");
-		String chromePath = Utils.getProp("chromePath");
-		
-		System.setProperty("webdriver.chrome.driver",path+chromePath);
+		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://automationpractice.com/index.php");

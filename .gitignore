@@ -34,3 +34,5 @@ rbs/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/cr
 rbs/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
 rbs/target/surefire-reports/com.rbs.demo.rbs.TestRunner.txt
 rbs/target/surefire-reports/TEST-com.rbs.demo.rbs.TestRunner.xml
+rbs/target/surefire-reports/com.demo.TestRunner.txt
+rbs/target/surefire-reports/TEST-com.demo.TestRunner.xml
