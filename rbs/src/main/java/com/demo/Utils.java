@@ -1,4 +1,4 @@
-package com.rbs.demo.rbs;
+package com.demo;
 
 import java.io.FileInputStream;
 import java.io.IOException;

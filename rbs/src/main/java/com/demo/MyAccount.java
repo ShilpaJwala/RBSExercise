@@ -1,4 +1,4 @@
-package com.rbs.demo.rbs;
+package com.demo;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

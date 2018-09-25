@@ -1,4 +1,4 @@
-package com.rbs.demo.rbs;
+package com.demo;
 
 import org.junit.runner.RunWith;
 import cucumber.api.CucumberOptions;
