@@ -36,3 +36,7 @@ rbs/target/surefire-reports/com.rbs.demo.rbs.TestRunner.txt
 rbs/target/surefire-reports/TEST-com.rbs.demo.rbs.TestRunner.xml
 rbs/target/surefire-reports/com.demo.TestRunner.txt
 rbs/target/surefire-reports/TEST-com.demo.TestRunner.xml
+rbs/.settings
+rbs/.settings/org.eclipse.core.resources.prefs
+rbs/.settings/org.eclipse.jdt.core.prefs
+rbs/.settings/org.eclipse.m2e.core.prefs
